@@ -1,0 +1,10 @@
+No. | Area Name      | Cell Availability (%) | Call Drop (%) | Partial Cell Availability (%) | Uplink (Mbps) | Downlink (Mbps)
+---------------------------------------------------------------------------------------------------------------
+1   | Downtown       | 98                   | 1.2           | 0.8                          | 50            | 120
+2   | Uptown         | 95                   | 2.5           | 2                            | 40            | 100
+3   | Midtown        | 97                   | 1.0           | 1                            | 45            | 110
+4   | Suburbs        | 93                   | 3.0           | 3                            | 30            | 90
+5   | Industrial     | 96                   | 1.8           | 1                            | 35            | 95
+6   | Airport Zone   | 99                   | 0.5           | 0.5                          | 60            | 150
+7   | Business Park  | 97                   | 1.5           | 1                            | 50            | 130
+8   | Residential    | 94                   | 2.2           | 2                            | 32            | 85
