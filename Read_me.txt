@@ -81,9 +81,37 @@ doc: List areas with partial cell availability greater than 2%.
 ######
 pip install pypdf
 pip install --upgrade langchain langchain-openai python-dotenv pypdf faiss-cpu
-pip install langchain-community
+pip install langchain langchain-openai faiss-cpu python-dotenv
 
+pip install langchain-community
+pip install -U langchain-community
 
 pip uninstall langchain langchain-community -y
 pip install langchain==0.1.0
 pip install openai python-dotenv faiss-cpu pypdf
+✅ BEST & EASIEST FIX (Recommended)
+🔥 Option 1: Use NEW LangChain (Stable, 2024+)
+
+This is the correct long-term solution.
+
+Step 1️⃣ Remove conflicting packages
+pip uninstall -y langchain langchain-core langchain-community langchain-openai langsmith numpy
+
+Step 2️⃣ Install compatible versions (NEW stack)
+pip install \
+  langchain \
+  langchain-openai \
+  langchain-community \
+  faiss-cpu \
+  python-dotenv \
+  numpy<2
+
+pip install langchain langchain-openai langchain-community faiss-cpu python-dotenv "numpy<2"
+
+
+✔ Works
+✔ Stable
+✔ Future-proof
+
+Step 3️⃣ Verify
+pip list | grep langchain
